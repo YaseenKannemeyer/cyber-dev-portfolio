@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Kannemeyer </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    
+	
+  </head>
+  <body>
+<canvas id="matrixCanvas"></canvas> <!-- Background Canvas -->
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header id="main-header">
+      <a href="main.html" class="brand">{M.Y. KANNEMEYER}<p class="paragraph-text1"> Aspiring Cybersecurity Expert</p></a>
+      <div class="menu-btn" ></div>
+      <div class="navigation">
+        <a href="#main" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">My Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+
+    
+    <header id="secondary-header">
+	
+        <div class="secondary-navigation">
+		
+		<div class="brand">
+            <a href="main.html" style="color:white">{M.Y. KANNEMEYER}<p class="paragraph-text2"> Aspiring Cybersecurity Expert</p></a>
+			</div>
+			<div class="menu-btn"></div>
+            <a href="#main">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">My Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <section class="welcome">
+    <div class="glow">
+        <h1><span>WELCOME <br>TO MY<br> PORTFOLIO   </span><a href="#main"><i class="fas fa-arrow-right"></i></a></h1>
+    </div>
+  </section>
+    
+
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Hello, I'm<br><span>Mogamat Yaseen<br> Kannemeyer</span></h2>
+		<h3>And I'm a <span class="pro-text"></span></h3>
+        <script>
+                            var typed = new Typed(".pro-text", {
+                                strings: [
+                                    "Ethical Hacker",
+                                    "Backend Developer",
+                                    "Systems Analyst",
+                                    "Linux Administrator",
+                                    "Web Developer",
+                                    "Network Architect"
+                                ],
+                                typeSpeed: 100,
+                                backSpeed: 100,
+                                backDelay: 1000,
+                                loop: true
+                            });
+                        </script>
+		<p class="portfolio-paragraph" >
+		 This portfolio highlights my passion for <strong class="shadow-text">cybersecurity</strong> and my commitment to ethical practices. <br><br>
+        I have acquired fundamental knowledge and skills in various areas of <strong class="shadow-text">ethical hacking</strong>, 
+        allowing me to contribute to the security of organizations and individuals. <br><br>
+        I am currently a student at <strong class="shadow-text">CPUT - Cape Peninsula University of Technology</strong>, pursuing a diploma in Application Development.
+    </p>
+	
+ <div class="media-icons">
+          <a href="https://github.com/YaseenKannemeyer/Yaseen-Kannemeyer.git"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/yaseenkannemeyer/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/yaseen-kannemeyer/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+	
+        <a href="projects.html" class="btn">See My Work</a>
+		<a href="CV/CV_of_Mogamat_Yaseen_Kannemeyer.pdf" class="btn" download="CV_of_Mogamat_Yaseen_Kannemeyer.pdf" target="_blank">Get My CV</a>
+
+       
+		
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <span class="footer-title">Mogamat Yaseen Kannemeyer </span>
+      <p>This is my Digital portfolio @2024. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+  <script src="matrix.js"></script> <!-- Your Matrix Animation Script -->
+  </body>
+</html>
